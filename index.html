@@ -5,26 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Module 2</title>
 </head>
 <body>
     <center>
-    <h1>Our Menu</h1>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Food, LLC</a>
+              </div>
+          
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="visible-xs"><a href="#">Chicken</a></li>
+                  <li class="visible-xs"><a href="#">Beef</a></li>
+                  <li class="visible-xs"><a href="#">Sushi</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
-    <div class="container">
-        <div class="section section-1">
-          <div class="section-title" style="background-color: rgb(235, 192, 192);">Chicken</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit velit, pharetra vel risus a, bibendum fermentum libero. Praesent vel mauris semper, feugiat elit vel, pharetra nunc.</p>
-        </div>
-        <div class="section section-2">
-          <div class="section-title" style="background-color: rgb(119, 42, 32); color: white">Beef</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit velit, pharetra vel risus a, bibendum fermentum libero. Praesent vel mauris semper, feugiat elit vel, pharetra nunc.</p>
-        </div>
-        <div class="section section-3">
-          <div class="section-title" style="background-color: rgb(235, 221, 192);">Sushi</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit velit, pharetra vel risus a, bibendum fermentum libero. Praesent vel mauris semper, feugiat elit vel, pharetra nunc.</p>
-        </div>
+  <div class="container">
+    <h1 class="text-center"><b>Our Menu</b></h1>
+    <div class="row">
+      <div class="col-xs-12" style="background-color: #eee; height: 200px;">
+        <h1>Chicken</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut rutrum mi, in tristique turpis. Nullam dignissim iaculis luctus. Ut vitae augue dictum, condimentum sapien non, pretium odio. Fusce feugiat bibendum orci, vel auctor sem lobortis vitae. Donec at justo pellentesque, lacinia sem non, tempor mauris. Morbi augue urna, pharetra sed auctor eu, ullamcorper eu quam. Suspendisse diam risus, hendrerit quis nisi vitae, accumsan tempor quam. Aenean convallis augue sit amet lacus maximus finibus. Vestibulum nec auctor ex.</p>
       </div>
-    </center>
+      <div class="col-xs-12" style="background-color: #eee; height: 200px; margin-top: 25px;">
+        <h1>Sushi</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut rutrum mi, in tristique turpis. Nullam dignissim iaculis luctus. Ut vitae augue dictum, condimentum sapien non, pretium odio. Fusce feugiat bibendum orci, vel auctor sem lobortis vitae. Donec at justo pellentesque, lacinia sem non, tempor mauris. Morbi augue urna, pharetra sed auctor eu, ullamcorper eu quam. Suspendisse diam risus, hendrerit quis nisi vitae, accumsan tempor quam. Aenean convallis augue sit amet lacus maximus finibus. Vestibulum nec auctor ex.</p>
+      </div>
+      <div class="col-xs-12" style="background-color: #eee; height: 200px; margin-top: 25px;">
+        <h1>Beef</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut rutrum mi, in tristique turpis. Nullam dignissim iaculis luctus. Ut vitae augue dictum, condimentum sapien non, pretium odio. Fusce feugiat bibendum orci, vel auctor sem lobortis vitae. Donec at justo pellentesque, lacinia sem non, tempor mauris. Morbi augue urna, pharetra sed auctor eu, ullamcorper eu quam. Suspendisse diam risus, hendrerit quis nisi vitae, accumsan tempor quam. Aenean convallis augue sit amet lacus maximus finibus. Vestibulum nec auctor ex.</p>
+      </div>
+    </div>
+  </div>
+</center>
 </body>
 </html>
